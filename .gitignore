@@ -1,0 +1,31 @@
+# ==========================================
+# MATLAB Fragility Analysis Project - .gitignore
+# ==========================================
+
+# MATLAB autosave files 
+*.asv
+
+# MATLAB temporary / backup files
+*.m~
+
+# MATLAB compiled or encrypted code 
+*.mex*
+*.p
+
+# Simulink autosave files 
+*.mdl.autosave
+*.slxc
+
+# Backup files created on macOS 
+.DS_Store
+
+# Windows thumbnail cache 
+Thumbs.db
+
+# ==========================================
+# IMPORTANT: OUTPUT FIGURES AND CSVs ARE KEPT
+# driftvspgv_figs/
+# powerlawfit_fits/
+# fragility_figs/
+# > These folders are NOT ignored—results will be uploaded.
+# ==========================================
